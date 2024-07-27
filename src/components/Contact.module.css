@@ -1,0 +1,35 @@
+.contactMe h3{
+    color: var(--light-grey);
+ margin-bottom: 0;
+}
+
+.contactMe{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    display: grid;
+   padding-left: 2rem;
+   padding-right: 2rem;
+    justify-content: center;
+}
+
+h3{
+    font-size: clamp(1.5rem, 5vw - 0.5rem, 2.8rem);
+text-align: center;
+}
+
+.contactMe p{
+    text-align: center;
+    color: var(--pale-green);
+}
+
+.contactMe button{
+    width: auto;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 2rem;
+    z-index: 10;
+    padding: 0.7rem;
+    background-color: var(--dark-grey);
+    color: var(--light-grey);
+    border: 1px solid var(--pale-green);
+}
