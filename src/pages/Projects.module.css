@@ -14,6 +14,7 @@
 }
 
 .projectsCont figure{
+  
     position: relative;
     border-radius: 1rem;
 margin: 0;
@@ -27,6 +28,13 @@ width: auto;
   display: block;
 border-radius: 0.5rem;
     width: 100%;
+}
+
+.projectCont{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .projectsCont ul{

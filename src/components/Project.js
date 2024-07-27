@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from '..//pages/Projects.module.css'
 
 const Project = ({link, imagePath, programmingLngs}) => {
   return (
-    <div style={{display: "flex"}}>
+    <div className={styles.projectCont}>
       
       <a href={link} target="_blank">
     <figure >
