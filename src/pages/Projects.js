@@ -26,7 +26,7 @@ function Projects(){
     programmingLngs={['React', 'CSS', "Javascript"]}
     />
 
-<Project link='https://photo-services-lac.vercel.app/'
+<Project link='https://photo-services-rjab.vercel.app'
     imagePath='/images/screely-1722032009527.png'
     programmingLngs={['React', 'Tailwind', 'Node.js', "MySql", "Typescript"]}
     />
