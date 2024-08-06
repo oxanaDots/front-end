@@ -36,7 +36,14 @@ border-radius: 0.5rem;
     justify-content: center;
     align-items: center;
 }
+.projectsCont p{
+    width: 100%;
+align-self: left;
+padding-left: 1rem;
+font-size: clamp(0.6rem, 5vw - 0.5rem, 0.8rem);
 
+text-align: left;
+}
 .projectsCont ul{
     display: flex;
     width: 100%;
@@ -64,6 +71,7 @@ border-bottom-right-radius: 0.5rem;
 figcaption{
 display: flex;
 justify-content: right;
+align-items: center;
 }
 
  figure::before {

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '..//pages/Projects.module.css'
 
-const Project = ({link, imagePath, programmingLngs}) => {
+const Project = ({link, imagePath, programmingLngs, statusOfProject}) => {
   return (
     <div className={styles.projectCont}>
       
@@ -9,6 +9,7 @@ const Project = ({link, imagePath, programmingLngs}) => {
     <figure >
 <img  src={imagePath}/>    
 <figcaption>
+    <p>{statusOfProject}</p>
     <ul>
        {programmingLngs.map(language=> <li>{language}</li>)}
     </ul>
