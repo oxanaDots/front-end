@@ -3,9 +3,13 @@ import styles from './Projects.module.css'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Project from "../components/Project"
+import { useEffect, useState } from "react"
 
 
 function Projects(){
+
+
+
     return(
         <>
         <section className={styles.sectionOne}>
@@ -26,7 +30,9 @@ function Projects(){
     programmingLngs={['React', 'CSS', "Javascript"]}
     />
 
-<Project link='https://photo-services-nine.vercel.app'
+<Project
+
+    link='https://photo-services-nine.vercel.app'
     imagePath='/images/screely-1722032009527.png'
     programmingLngs={['React', 'Tailwind', 'Node.js', "MySql", "Typescript"]}
     statusOfProject='Work in progress...'
