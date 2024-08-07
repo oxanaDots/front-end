@@ -34,7 +34,7 @@ function Projects(){
 
     link='https://photo-services-nine.vercel.app'
     imagePath='/images/screely-1722032009527.png'
-    programmingLngs={['React', 'Tailwind', 'Node.js', "MySql", "Typescript"]}
+    programmingLngs={['React', 'Tailwind', 'Express.js', "MySql", "Typescript"]}
     statusOfProject='Work in progress...'
     />
 
