@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from '..//pages/Projects.module.css'
+import LazyLoad from 'react-lazyload';
+
 
 const Project = ({link, imagePath, programmingLngs, statusOfProject}) => {
 
@@ -11,7 +13,9 @@ const Project = ({link, imagePath, programmingLngs, statusOfProject}) => {
 
       <div  className= {` ${isWorkInProgress ? styles.inProgress : styles.imgCont }`}>
       <h3 className={styles.status}>{statusOfProject}</h3>
+      <LazyLoad height={200} offset={100}>
      <img   src={imagePath}/>   
+     </LazyLoad>
 </div>
      <ul>{programmingLngs.map(language=> <li>{language}</li>)}</ul>
 
