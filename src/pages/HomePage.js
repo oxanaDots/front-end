@@ -60,12 +60,9 @@ useEffect(()=>{
   
         <h3>PAST PROJECTS.</h3>
         <p className={styles.intro}>My passion for front-end development is fuelled by the endless opportunities for growth and learning, as well as the ability to create a blueprint for businesses. </p>
-        <p className={styles.intro}>This drive has led me to work on diverse projects. <br></br>For instance, I developed a sleek and interactive <a href='https://oxanadotsenkophotography.co.uk/' target="_blank"><span className={styles.highlight}> photography portfolio</span></a>  to highlight my photography works, and I built a comprehensive business website for a tiling company, <a href='https://amd-ceramics.vercel.app'><span className={styles.highlight}>AMD Ceramics</span></a>, ensuring a user-friendly experience and seamless functionality.</p>
+        <p className={styles.intro}>This drive has led me to work on diverse <span > <a href="/projects" className={styles.highlight}>projects.</a></span></p>
 
-{/* <figure>
-<img src="/images/screely-1719931745079.png"/>    
 
-</figure> */}
         
     
             </div>

@@ -244,8 +244,12 @@ width:30vw;
 .skils, .highlight{
     color: rgb(143, 225, 150);
     font-weight: 500;
-    font-size: larger;
+
 }
+
+span:hover{
+    transform: translateX(-5%);
+} 
 
 @media(max-width: 700px){
     .heroPage{
