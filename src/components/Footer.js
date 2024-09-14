@@ -15,7 +15,7 @@ function Footer(){
         <a target="_blank" href='https://github.com/oxanaDots'>    <FontAwesomeIcon icon={faSquareGithub} style={{color: "var(--pale-green"}} size="2x"  className={styles.gitHubIcon}/>
 </a>
 <a>
-<FontAwesomeIcon icon={faSquareInstagram} style={{color: "var(--pale-green"}} size="2x"  className={styles.gitHubIcon}/>
+{/* <FontAwesomeIcon icon={faSquareInstagram} style={{color: "var(--pale-green"}} size="2x"  className={styles.gitHubIcon}/> */}
 
 </a>
     </div>
