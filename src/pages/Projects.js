@@ -20,10 +20,10 @@ function Projects(){
     
 
 
-    <Project link='https://oxanadotsenkophotography.co.uk'
+    {/* <Project link='https://oxanadotsenkophotography.co.uk'
     imagePath='/images/screely-1719931745079.png'
     programmingLngs={['Javascript', 'HTML', 'CSS', 'PHP']}
-    />
+    /> */}
 
 <Project link='https://amd-ceramics.vercel.app'
     imagePath='/images/screely-1719937657626.png'
