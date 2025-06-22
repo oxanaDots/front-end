@@ -1,0 +1,27 @@
+.footer p{
+    font-family: 'DM sans';
+    font-size: clamp(0.8rem, 5vw - 0.5rem, 1rem);
+    font-weight: 200;
+    color: var(--pale-green);
+  
+}
+
+.footer{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
+.iconCont{
+    display: flex;
+    grid-row: 1;
+    gap: 1rem;
+}

@@ -1,0 +1,80 @@
+
+
+#root {
+  --dark-grey: rgba(31, 36, 33, 1);  /* dark grey */
+  --teal-blue: rgba(33, 104, 105, 1);  /* teal blue */
+  --medium-green: rgba(73, 160, 120, 1);  /* medium green */
+  --bright-green: rgb(201, 236, 137);  /* medium green */
+  --pale-green: rgba(156, 197, 161, 1);  /* pale green */
+  --light-grey: rgba(220, 225, 222, 1);  /* light grey */
+  --teal-blue-02: rgba(33, 104, 105, 0.487);  /* teal blue */
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+body{
+
+  font-family: "Cabin", sans-serif;
+}
+
+ button{
+  font-size: clamp(1rem, 5vw - 0.5rem, 1.2rem);
+
+}
+
+p{
+  font-size: clamp(1.2rem, 5vw - 0.5rem, 1.2rem);
+
+}
+
+button{
+  cursor: pointer;
+}
+a{
+text-decoration: none;
+}
+
+h2{
+  font-size: clamp(2.1rem, 5vw - 0.5rem, 3.5rem);
+
+}
+body{
+position: relative;
+background-repeat: no-repeat;
+margin: 0;
+background-size: cover;
+  background-attachment: fixed;
+  background: radial-gradient(circle at 80% 60%, rgba(31, 36, 33, 1) 40%,  rgba(33, 104, 105, 1) 100%);
+z-index: -1;
+background: -webkit-radial-gradient(circle at 80% 60%, rgba(31, 36, 33, 1) 40%, rgba(33, 104, 105, 1) 100%); /* For Safari 5.1 to 6.0 */
+background: -moz-radial-gradient(circle at 80% 60%, rgba(31, 36, 33, 1) 40%, rgba(33, 104, 105, 1) 100%); /* For Firefox 3.6 to 15 */
+background: -ms-radial-gradient(circle at 80% 60%, rgba(31, 36, 33, 1) 40%, rgba(33, 104, 105, 1) 100%); /* For IE 10 */
+background: -o-radial-gradient(circle at 80% 60%, rgba(31, 36, 33, 1) 40%, rgba(33, 104, 105, 1) 100%); /* For Opera 11.6 to 12.0 */
+background: radial-gradient(circle at 80% 60%, rgba(31, 36, 33, 1) 40%, rgba(33, 104, 105, 1) 100%); /* Standard syntax */
+
+
+    /* background-image: -moz-linear-gradient(45deg, var(--teal-blue) -30%, var(--dark-grey) 70%);
+    
+    background-image: -webkit-linear-gradient(45deg, var(--teal-blue) -30%, var(--dark-grey) 70%);
+    
+    background-image: -o-linear-gradient(45deg, var(--teal-blue) -30%, var(--dark-grey) 70%);
+    
+    background-image: linear-gradient(45deg, var(--teal-blue)-30%, var(--dark-grey) 70%); */
+
+}
+
+
+body::before{
+  background-color: var(--dark-grey);
+
+position: absolute;
+content: '';
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+}
