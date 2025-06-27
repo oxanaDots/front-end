@@ -59,7 +59,7 @@ useEffect(()=>{
 </div>
   
         <h3>PAST PROJECTS.</h3>
-        <p className={styles.intro}>My passion for front-end development is fuelled by the endless opportunities for growth and learning, as well as the ability to create a blueprint for businesses. </p>
+        <p className={styles.intro}>My passion for full-stack development is fuelled by the endless opportunities for growth and learning, as well as the ability to create a blueprint for businesses. </p>
         <p className={styles.intro}>This drive has led me to work on diverse <span > <a href="/projects" className={styles.highlight}>projects.</a></span></p>
 
 
