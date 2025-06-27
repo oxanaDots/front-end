@@ -32,10 +32,10 @@ function Projects(){
 
 <Project
 
-    link='https://photo-services-sage.vercel.app/'
-    imagePath='/images/screely-1722032009527.png'
-    programmingLngs={['React', 'Tailwind', 'Express.js', "MySql", "Typescript"]}
-    statusOfProject='Work in progress...'
+    link='photo-platform-git-main-oxanas-projects-46ce71a7.vercel.app'
+    imagePath='/images/screely-1751064545350.png'
+    programmingLngs={['React', 'Tailwind', 'Node.js', "Firebase", "Typescript"]}
+   
     />
 
 
