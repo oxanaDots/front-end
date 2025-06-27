@@ -32,7 +32,7 @@ useEffect(()=>{
 <div className={styles.heroSection}>
         <div className={styles.heroPage}>
             <h2 ref={heroPageTextRef}>Ascend to new heights with bespoke <span className={styles.code}>code</span> and <span className={styles.design}>design</span>, tailored to elevate your online presence</h2>
-       <p>Hello, I'm Oksana Dotsenko, a front-end developer</p>
+       <p>Hello, I'm Oksana Dotsenko, a full-stack developer</p>
 <button className={styles.homePageButton} onClick={handleButtonClick}>Find Out More</button>
 
         </div>
@@ -45,7 +45,7 @@ useEffect(()=>{
         </h3>
 
         <p className={styles.intro}>
-        My journey as a front-end developer began a year ago when I decided to learn coding to complement my graphic design projects. Since then, I haven't stopped coding and acquiring skills in web development, <span style={{fontStyle: 'italic', fontWeight: '400'}}>such as</span>:
+        My journey as a full-stack developer began a year ago when I decided to learn coding to complement my graphic design projects. Since then, I haven't stopped coding and acquiring skills in web development, <span style={{fontStyle: 'italic', fontWeight: '400'}}>such as</span>:
         </p>
         <h3>
             SKILLS.
@@ -53,7 +53,7 @@ useEffect(()=>{
 
 <div>
   
-<p className={styles.develop}>HTML / CSS / JavaScript  / React / Typescript / Tailwind / MySQL / GitHub / Git / VSCode </p>
+<p className={styles.develop}>HTML / CSS / JavaScript  / React / Typescript / Tailwind / MySQL / GitHub / Git / VSCode / Firebase / Python </p>
 <br></br>
         <p className={styles.dsgn}>UI/UX Design / Responsive Web Design / Logo Design / Visual Identity Design</p>
 </div>

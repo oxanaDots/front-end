@@ -16,7 +16,7 @@ function Projects(){
             <PageNav/>
             <div className={styles.projectsCont}>
             <h2>A Glimpse into My Early Projects</h2>
-            <p>As a budding front-end developer, I am continually expanding my skills and portfolio. While I am still at the beginning of my journey, I am proud to showcase the projects I have completed so far.</p>
+            <p>As a budding full-stack developer, I am continually expanding my skills and portfolio. While I am still at the beginning of my journey, I am proud to showcase the projects I have completed so far.</p>
     
 
 
