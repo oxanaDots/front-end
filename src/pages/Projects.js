@@ -32,7 +32,7 @@ function Projects(){
 
 <Project
 
-    link='photo-platform-git-main-oxanas-projects-46ce71a7.vercel.app'
+    link='https://photo-platform-git-main-oxanas-projects-46ce71a7.vercel.app/'
     imagePath='/images/screely-1751064545350.png'
     programmingLngs={['React', 'Tailwind', 'Node.js', "Firebase", "Typescript" , "Javascript"]}
    
